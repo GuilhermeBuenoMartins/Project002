@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Soma Dois Valores</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="rulercss.css"/>
+        <script language="javascript" src="resultado.jsp"/>
+    </script>
+    </head>
+    <body>
+            <h1>Calculadora</h1>
+            <form action="resultado.jsp">
+                <input type="text" name="valor1" placeholder="Valor 1"/>
+                <input type="text" name="valor2" placeholder="Valor 2"/>
+                <button type="button" id="add" onclick="to_add()">Somar</button>
+                <button type="button" id="subtract" onclick="to_subtract()"> Subtrair</button>
+                <button type="button" id="multiply" onclick="to_multiply()"> Multiplicar</button>
+                <button type="button" id="divide" onclick="to_divide()"> Dividir</button>                
+                <button type="button" id="clear">Limpar</button>
+            </form>
+    </body>
+</html>
